@@ -217,9 +217,9 @@ ul{
 
 }
 
-.section-two-list{
+/*.section-two-list{
     width: calc((100%-72px)/4);
-}
+}*/
 
 .main-secondtitle {
     font-weight: 500;
@@ -1001,7 +1001,7 @@ ul{
     }
 
     .section-two-list {
-        width: calc((100%-396px)/1);
+        width: 100%;
     }
 
 }
