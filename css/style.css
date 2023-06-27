@@ -438,12 +438,12 @@ ul{
 
 /*FOOTER*/
 .footer-text {
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 16px;
-    letter-spacing: 0.02em;
+    /*letter-spacing: 0.02em;*/
     color: #F4F4FD;
-    line-height: 1.5;
-    max-width: 264px;
+    /*line-height: 1.5;
+    max-width: 264px;*/
 }
 .footer {
     background-color: var(--title-color);
@@ -457,7 +457,7 @@ ul{
     font-size: 18px;
     line-height: 1.17;
     color: #4d5ae5;
-    margin-right: 76px;
+    /*margin-right: 76px;*/
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 16px;
@@ -490,17 +490,17 @@ ul{
 }
 
 
-.footer-first {
+/*.footer-first {
     margin-right: 120px;
-}
+}*/
 
 .footer-par {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    /*line-height: 1.5;
+    letter-spacing: 0.02em;*/
     color: var(--footer);
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
 }
 
 .footer-ul {
@@ -988,7 +988,7 @@ ul{
     
 
     .container {
-        max-width: 428px;
+        max-width: 426px;
     }
 
 /*SECTION TWO*/
@@ -1061,6 +1061,10 @@ ul{
         }
 
     /*SECTION FIVE*/
+        .container {
+            max-width: 426px;
+        }
+        
 
         .five-title{
             line-height: 40px;
@@ -1070,11 +1074,38 @@ ul{
 
         .five-ul{
             gap: 16px;
-            width: calc((100% - 16px) / 2);
+            width: 100%;
+            margin-right: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 96px;
+            
         }
         .five-ul-li{
             width: calc((100% - 16px) / 2);
         }
+
+    /*FOOTER*/
+    .footer{
+       width: 100%;
+       
+    }
+
+    .footer-first{
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        margin-left: 150px;
+    }
+    .footer-text{
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 268px;
+        flex-direction: column;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+
+    
 
 }
 
@@ -1091,14 +1122,14 @@ ul{
     }
 
     .section-two-ul{
+        margin-top: 96px;
         width: 100%;
+        flex-wrap: wrap;
 
     }
     
     .section-two-list {
-        flex-direction: column;
-        max-width: unset;
-        width: calc((100%-24px)/2);
+        width: calc((100% - 24px) / 2);
     }
     
 
@@ -1107,21 +1138,51 @@ ul{
     /*SECTION FOUR*/
     .section-four-ul {
         max-width: unset;
-            width: calc((100%-24px)/2);
-        gap: 64px;
+        
         margin-left: 108px;
         margin-right: 108px;
         margin-bottom: 96px;
         padding-top: 72px;
+        flex-wrap: wrap;
+    }
+
+    .li-section{
+        width: calc((100% - 24px) / 2);
     }
 
     .section-four-title {
-
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
 
+    
+    /*SECTION FIVE*/
+    .container {
+        max-width: 768px;
+    }
+
+
+    .five-title {
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        margin-top: 96px;
+    }
+
+    .five-ul {
+        gap: 24px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-left: 108px;
+        padding-right: 108px;
+        margin-bottom: 96px;
+        
+
+    }
+
+    .five-ul-li {
+        width: calc((100% - 48px) / 3);
+    }
     
 
 
