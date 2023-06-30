@@ -213,7 +213,7 @@ ul{
 */
 .section-two-ul{
     display: flex;
-    gap: 24px;
+    /*gap: 24px;*/
 
 }
 
@@ -1122,6 +1122,9 @@ ul{
     }
 
     .section-two-ul{
+        
+
+        gap: 72px 24px;
         margin-top: 96px;
         width: 100%;
         flex-wrap: wrap;
@@ -1129,7 +1132,23 @@ ul{
     }
     
     .section-two-list {
+        
         width: calc((100% - 24px) / 2);
+    }
+    .main-secondtitle{
+        align-self: stretch;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+    }
+
+    .main-second-content{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
     }
     
 
@@ -1138,7 +1157,7 @@ ul{
     /*SECTION FOUR*/
     .section-four-ul {
         max-width: unset;
-        
+        gap: 72px 24px;
         margin-left: 108px;
         margin-right: 108px;
         margin-bottom: 96px;
@@ -1154,6 +1173,11 @@ ul{
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+    }
+
+    .im-sec-for{
+        width: 264px;
+        height: 260px;
     }
 
     
@@ -1190,7 +1214,41 @@ ul{
 
 
 
+@media screen and (min-width: 1158px){
+/*SECTION TWO*/
+    .container{
+        max-width: 1440px;
+    }
 
+    .section-two{
+    padding: 120px 0;
+    }
+
+    .section-two-ul {
+        width: 100%;
+        display: flex;
+        gap: 24px
+
+    }
+
+    .section-two-list{
+        width: calc((100%-72px)/4);
+    }
+
+    .main-secondtitle {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+        line-height: 1.2;
+        margin-bottom: 8px;
+
+    }
+
+
+
+
+}
 
 
 
