@@ -1191,14 +1191,13 @@ ul{
 @media screen and (min-width: 768px) {
    /*SECTION ONE*/
    .hero-title{
-    min-width: 496px;
-    height: 120px;
+    max-height: 496px;
+    /*height: 120px;*/
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
-    margin-top: 0;
-    margin-bottom: 0;
+    
     
    }
 
