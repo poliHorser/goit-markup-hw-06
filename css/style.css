@@ -169,15 +169,15 @@ ul{
 }
 
 .hero-title{
-    font-weight: 700;
+    /*font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07;*/
     text-align: center;
-    letter-spacing: 0.02em;
+    /*letter-spacing: 0.02em;*/
     color: #FFFFFF;
-    max-width: 496px;
+    /*max-width: 496px;
    margin: 0 auto;
-   margin-bottom: 48px;
+   margin-bottom: 48px;*/
 
 }
 .hero-buton{
@@ -191,7 +191,7 @@ ul{
     cursor: pointer;
     line-height: 1.5;
 
-    min-width: 169px;
+    /*min-width: 169px;*/
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -996,7 +996,28 @@ ul{
     
 
     .container {
-        max-width: 426px;
+        max-width: 428px;
+    }
+
+/*SECTION FIRST*/
+    .hero-title{
+        margin-top: 112px;
+        width: 320px;
+        margin-bottom: 72px;
+        margin-left: 54px;
+        margin-right: 54px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+    }
+    .hero-buton{
+        
+        min-width: 169px;
+        margin-left: 129px;
+        margin-right: 129px;
+        margin-bottom: 112px;
+
     }
 
 /*SECTION TWO*/
@@ -1168,6 +1189,28 @@ ul{
 
 
 @media screen and (min-width: 768px) {
+   /*SECTION ONE*/
+   .hero-title{
+    min-width: 496px;
+    height: 120px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   }
+
+   .hero-buton{
+    margin-top: 0;
+    margin-bottom: 112px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   
+   
     /*SECTION TWO*/
 
     .container{
@@ -1175,11 +1218,10 @@ ul{
     }
 
     .section-two-ul{
-        
-        width: 100%;
+        display: flex;
         gap: 72px 24px;
-        margin-top: 96px;
         flex-wrap: wrap;
+       
 
     }
     
@@ -1194,6 +1236,7 @@ ul{
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.72px;
+        
     }
 
     .main-second-content{
@@ -1262,42 +1305,30 @@ ul{
     /*FOOTER*/
     .container {
         max-width: 736px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
     }
     .footer {
         width: calc((100%-24px)/2);
-        text-align: center;
+        
     }
 
-    .footer-all {
-        flex-wrap: wrap;
-    }
+    
 
     .footer-first {
         width: calc((100%-24px)/2);
     }
 
     .footer-text {
-        margin-left: 80px;
-        margin-right: 80px;
+       
         width: 268px;
         flex-direction: column;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
 
-    
-
-    /*.footer-par {
-        padding-left: 26px;
-        margin-top: 72px;
-        margin-bottom: 16px;
-
-    }*/
-
-    /*.footer-ul {
-        margin-left: 110px;
-
-    }*/
 
     .footer-div {
         width: 100%;
@@ -1311,10 +1342,10 @@ ul{
     }
 
     .footer-par-p {
-        padding-left: 26px;
+       
         margin-top: 72px;
         margin-bottom: 16px;
-        margin-right: 60px;
+        
     }
 
     .footer-label {
@@ -1386,9 +1417,7 @@ ul{
         line-height: 1.5;
         max-width: 264px;
     }
-    .footer-logo{
-        margin: 0 auto;
-    }
+    
     
     .footer-form{
         flex-wrap: nowrap;
