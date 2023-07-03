@@ -1588,10 +1588,35 @@ ul{
 
 }
 
+/*SECTION ONE*/
+.container{
+    max-width: 1440px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    min-width: 496px;
+    margin: 0 auto;
+    margin-bottom:188px;
+    margin-left: 300px;
+
+}
+.hero-buton{
+    margin-top: 356px;
+    min-width: 169px;
+}
 
 
 
 /*SECTION TWO*/
+.container {
+    max-width: 1158px;
+}
     .hero {
     
         background-color: #2E2F42;
