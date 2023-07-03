@@ -1144,7 +1144,7 @@ ul{
 
 /*SECTION TWO*/
     .section-wo-im{
-        visibility: hidden;
+        display: none;
     }
 
     .section-two {
@@ -1399,10 +1399,10 @@ ul{
         gap: 72px 24px;
         flex-wrap: wrap;
         max-width: unset;  
-        
-
     }
-    
+    .section-wo-im{
+        display: none;
+    }
     .section-two-list {
         width: calc((100% - 24px) / 2);
     }
@@ -1633,6 +1633,7 @@ ul{
     }
 
     .section-two-ul {
+        width: unset;
         max-width: unset;
         display: flex;
         gap: 24px;
@@ -1642,12 +1643,22 @@ ul{
     .section-two-list{
         width: 264px;
         font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            letter-spacing: 0.32px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
     }
+        .main-second-content {
+        width: 240px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        color: #434455;
+        }
 
     .main-secondtitle {
+
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
@@ -1656,12 +1667,68 @@ ul{
         margin-bottom: 8px;
 
     }
+    .section-wo-im{
+        display: flex;
+    }
+    /*SECTION TRHEE*/
+    .section-three{
+        display: flex;
+    }
+    .section-title{
+        text-align: center;
+        margin-top: 120px;
+        width: 323px;
+        margin-bottom: 72px;
+        letter-spacing: 0.02em;
+        line-height: 1.11
+    }
+    .section-ul {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 130px;
+    }
+    /*SECTION FOUR*/
+    .section-four-title{
+        margin-left: 639px;
+        margin-bottom: 72px;
+        letter-spacing: 0.02em;
+        line-height: 1.11;
+    }
+    .section-four-ul{
+        gap: 24px;
+    }
+    .li-section{
+    width: calc((100% - 72px) / 4);
+    }
+    /*SECTION FIVE*/
+        .section-five {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+    .five-title{
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        margin-bottom: 73px;
+        margin-top: 120px;
+        text-align: center;
+    }
+    .five-ul{
+        margin-top: 72px;
+        gap: 24px;
+
+    }
+    .five-ul-li {
+        width: calc((100% - 120px) / 6);
+    }
 
     /*FOOTER*/
 
     .container{
         width: 1440px;
         flex-wrap: nowrap;
+    }
+    .footer-logo{
+        text-align: left;
     }
     .footer-text {
         font-weight: 400;
