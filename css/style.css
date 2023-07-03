@@ -1553,9 +1553,9 @@ ul{
 
 
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1150px){
 .container {
-        max-width: 1440px;
+        max-width: 1150px;
     }
 .header-menu-item {
         display: flex;
@@ -1608,14 +1608,18 @@ ul{
     }
 
     .section-two-ul {
-        
+        max-width: unset;
         display: flex;
-        gap: 24px
-
+        gap: 24px;
+        flex-wrap: wrap;
     }
 
     .section-two-list{
-        width: calc((100%-72px)/4);
+        width: 264px;
+        font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
     }
 
     .main-secondtitle {
