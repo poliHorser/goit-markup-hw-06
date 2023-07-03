@@ -97,7 +97,7 @@ ul{
     font-size: 18px;
     line-height: 1.17;
     color: #404bbf;
-    margin-right: 76px;
+   /* margin-right: 76px;*/
     letter-spacing: 0.03em;
     
 }
@@ -252,6 +252,7 @@ ul{
 }
 
 /*SECTION THREE*/
+
 
 .section-three{
     padding-bottom: 120px;
@@ -998,12 +999,117 @@ ul{
     .container {
         max-width: 428px;
     }
+/*HEADER MODAL*/
+    .hid-modal{
+        color: #2E2F42;
+        margin-left: 225px;
+    }
 
+    .mod-window{
+        position: fixed;
+        width: 428px;
+        height: 796px;
+        flex-shrink: 0;
+        background: #ffffff;
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    }
+    .mod-btn {
+        position: absolute;
+        margin-top: 24px;
+        margin-left: 380px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7e9fc;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        }
+    .modal-menu-link{
+        font-size: 36px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: #2E2F42;
+    }
+        .opened{
+            margin-left: 0;
+            color: #404bbf;
+        }
+    .modal-menu{
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 151px;
+        flex-wrap: wrap;
+    }
+    .modal-menu-item{
+        padding: 0;
+    }
+    .modal-contact{
+        color: #4D5AE5;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        margin-top: 284px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .modal-contact-link{
+        color: #434455;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        margin-left: 40px;
+        
+    }
+    .mod-ul{
+        
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        margin-left: 0;
+        margin-top: 56px;
+        
+    }
+/*HEADER*/
+    .header {
+        height: 72px;
+    }
+    .header-logo{
+        margin-left: 16px;
+    }
+    .header-menu{
+        visibility: hidden;
+    }
+    .header-adddres {
+        visibility: hidden;
+    }
+
+    
 /*SECTION FIRST*/
+    .hero{
+        
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg.jpg);
+
+
+    }
     .hero-title{
-        margin-top: 112px;
+        margin-top: 0;
         width: 320px;
-        margin-bottom: 72px;
+        
         margin-left: 54px;
         margin-right: 54px;
         font-size: 36px;
@@ -1012,15 +1118,25 @@ ul{
         letter-spacing: 0.72px;
     }
     .hero-buton{
-        
+        margin-top: 72px;
         min-width: 169px;
         margin-left: 129px;
         margin-right: 129px;
         margin-bottom: 112px;
 
     }
+    .mod-window{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
 /*SECTION TWO*/
+    .section-wo-im{
+        visibility: hidden;
+    }
 
     .section-two {
         padding-top: 96px;
@@ -1063,15 +1179,11 @@ ul{
         max-width: 396px;
     }
     /**/
+    .section-three{
+        visibility: hidden;
+    }
 
-        .section-title {
-            line-height: 40px;
-            text-transform: capitalize;
-            padding-top: 96px;
-            padding-left: 133px;
-            padding-right: 133px;
-            padding-bottom: 72px;
-        }
+       
     
     /*SECTION FOUR*/
         .section-four-ul{
@@ -1189,23 +1301,75 @@ ul{
 
 
 @media screen and (min-width: 768px) {
-   /*SECTION ONE*/
-   .hero-title{
-    max-height: 496px;
-    /*height: 120px;*/
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-    
-    
-   }
 
+    .hid-modal{
+        visibility: hidden;
+    }.header-logo {
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        color: #404bbf;
+        /* margin-right: 76px;*/
+        letter-spacing: 0.03em;
+    
+    }
+    .header-menu-item {
+        display: flex;
+        gap: 40px;
+    }
+    .header-menu-link {
+
+        padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--title-color);
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-adddres {
+        font-style: normal;
+        margin-left: auto;
+    }
+
+    .header-contact-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    }
+   /*SECTION ONE*/
+    .hero {
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-bg.jpg);
+
+
+    }
+    .hero-title {
+        min-width: 496px;
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 120px;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+
+
+    }
    .hero-buton{
-    margin-top: 0;
-    margin-bottom: 112px;
-    margin-left: auto;
-    margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 112px;
+        margin-left: auto;
+        margin-right: auto;
    }
    
    
@@ -1213,19 +1377,16 @@ ul{
     /*SECTION TWO*/
 
     .container{
-        max-width: 736px;
+        min-width: 736px;
     }
 
     .section-two-ul{
-        display: flex;
         gap: 72px 24px;
-        flex-wrap: wrap;
-       
+        flex-wrap: wrap;  
 
     }
     
     .section-two-list {
-        
         width: calc((100% - 24px) / 2);
     }
     .main-secondtitle{
@@ -1372,6 +1533,13 @@ ul{
 
 @media screen and (min-width: 1440px){
 /*SECTION TWO*/
+    .hero {
+    
+        background-color: #2E2F42;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgim.jpg);
+
+
+    }
     .container{
         max-width: 1440px;
     }
