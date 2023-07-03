@@ -1189,7 +1189,7 @@ ul{
     }
     /**/
     .section-three{
-        visibility: hidden;
+        display: none;
     }
 
        
@@ -1425,7 +1425,9 @@ ul{
     }
     
 
-
+.section-three {
+    display: none;
+}
 
     /*SECTION FOUR*/
     .container{
