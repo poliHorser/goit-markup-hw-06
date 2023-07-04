@@ -522,7 +522,7 @@ ul{
     height: 40px;
 }
 .footer-all {
-    display: flex;
+    
     align-items: baseline;
 }
 
@@ -570,9 +570,7 @@ ul{
 }
 
 
-.footer-div {
-    margin-left: 80px;
-}
+
 
 .par-li {
     display: block;
@@ -582,10 +580,7 @@ ul{
 }
 
 
-.footer-form {
-    display: flex;
-    /*gap: 24px;*/
-}
+
 
 .sb-svg {
 
@@ -997,12 +992,13 @@ ul{
     
 
     .container {
-        max-width: 428px;
+        width: 320px;
     }
 /*HEADER MODAL*/
     .hid-modal{
         color: #2E2F42;
         margin-left: auto;
+        
     }
 
    
@@ -1239,47 +1235,49 @@ ul{
     
     .footer{
        width: 100%;
-       text-align: center;
+      
     }
-    .footer-all{
-        flex-wrap: wrap;
-    }
+    
 
     .footer-first{
-        flex-wrap: wrap;
+        display: block;
+        text-align: center;
     }
     
     .footer-text{
-        margin-left: 80px;
-        margin-right: 80px;
-        width: 268px;
         flex-direction: column;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
 
-    .footer-second{
-        width: 100%;
-        
-    }
+    
     .footer-par{
-       padding-left: 26px;
+    margin-left: auto;
        margin-top: 72px;
        margin-bottom: 16px;
        
     }
     .footer-ul{
-        margin-left: 110px;
+        
+        width: 100%;
+       margin-left: auto;
         
     }
     .footer-div{
-        width: 100%;
+        flex-direction: column;
+        display: block;
         text-align: center;
         
     }
+    .footer-second{
+        display: block;
+        text-align: center;
+       
+    }
     .footer-form{
-        width: 100%;
-        flex-wrap: wrap;
+        display: block;
+        text-align: center;
+        padding-bottom: 16px;
     }
     .footer-par-p{
         padding-left: 26px;
@@ -1299,6 +1297,9 @@ ul{
         flex-shrink: 0;
     }
     .footer-form-btn{
+        margin-left: 60px;
+        margin-right: auto;
+        margin-top: 16px;
         width: 165px;
     }
 
@@ -1309,10 +1310,10 @@ ul{
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width:1158px) {
 
     .hid-modal{
-        visibility: hidden;
+        display: none;
     }
     .header-logo {
         font-family: "Raleway", sans-serif;
@@ -1326,15 +1327,15 @@ ul{
     
     }
     .header-menu{
-        visibility: visible;
-        margin-right: 256px;
+        margin-left: 120px;
+        display: flex;        
     }
     .header-menu-item {
         display: flex;
         gap: 40px;
     }
     .header-menu-link {
-        visibility: visible;
+        display: flex;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -1345,13 +1346,13 @@ ul{
     }
 
     .header-adddres {
-        visibility: visible;
+        display: flex;
         font-style: normal;
        
     }
 
     .header-contact-link {
-        
+        display: flex;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -1369,6 +1370,7 @@ ul{
 
     }
     .hero-title {
+        margin-left: 100px;
         min-width: 496px;
         margin-bottom: 0;
         margin-top: 0;
@@ -1493,50 +1495,44 @@ ul{
         gap: 72px 24px;
     }
     .footer {
-        width: calc((100%-24px)/2);
+        
         
     }
 
     
-
+    .footer-all{
+        margin-left: 110px;
+    }
     .footer-first {
+
+        text-align: left;
         width: calc((100%-24px)/2);
     }
 
     .footer-text {
        
         width: 268px;
-        flex-direction: column;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
 
 
     .footer-div {
-        width: 100%;
         text-align: center;
 
     }
 
-    .footer-form {
-        width: 100%;
-        flex-wrap: wrap;
-    }
+    
 
-    .footer-par-p {
-       
-        margin-top: 72px;
-        margin-bottom: 16px;
-        
-    }
+    
 
     .footer-label {
-        width: 100%;
+        
         margin-bottom: 16px;
     }
 
     .footer-par-li {
-        width: 100%;
+       
         height: 40px;
         flex-shrink: 0;
     }
