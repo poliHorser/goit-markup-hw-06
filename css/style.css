@@ -992,7 +992,7 @@ ul{
 }
 
 /*MEDIA*/
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 768px) {
     
     
 
@@ -1002,7 +1002,7 @@ ul{
 /*HEADER MODAL*/
     .hid-modal{
         color: #2E2F42;
-        margin-left: 225px;
+        margin-left: auto;
     }
 
    
@@ -1100,10 +1100,10 @@ ul{
         margin-left: 16px;
     }
     .header-menu{
-        visibility: hidden;
+        display: none;
     }
     .header-adddres {
-        visibility: hidden;
+        display: none;
     }
 
     
@@ -1117,21 +1117,21 @@ ul{
     }
     .hero-title{
         margin-top: 0;
-        width: 320px;
+        max-width: 320px;
         
         margin-left: 54px;
         margin-right: 54px;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
-        letter-spacing: 0.72px;
+        letter-spacing: 0.02em;
     }
     .hero-buton{
         margin-top: 72px;
         min-width: 169px;
-        margin-left: 129px;
-        margin-right: 129px;
-        margin-bottom: 112px;
+        margin-left: auto;
+        margin-right: auto;
+       
 
     }
     .mod-window{
