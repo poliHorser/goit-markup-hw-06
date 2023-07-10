@@ -1582,7 +1582,12 @@ ul{
 
 
 @media screen and (min-width: 1158px) and (max-width:1440px){
-.container {
+
+.modal-window{
+    width: 100%;
+    height: 100%;
+}
+    .container {
         max-width: 1158px;
     }
 .header-menu-item {
