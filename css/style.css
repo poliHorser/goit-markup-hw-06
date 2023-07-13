@@ -989,6 +989,11 @@ ul{
 /*MEDIA*/
 @media screen and (min-width:320px) and (max-width: 768px) {
     
+    .modal{
+        width: 392px;
+        height: 584px;
+       
+    }
     
 
     .container {
@@ -1055,7 +1060,8 @@ ul{
 
     }
     .hero-title{
-        width: 320px;
+        
+        min-width: 320px;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
