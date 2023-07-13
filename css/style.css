@@ -995,7 +995,13 @@ ul{
         width: 320px;
     }
 
-
+    .menu-svg{
+        stroke: #111111;
+    }
+    .menu-toggle{
+        margin-top: 0;
+        margin-left: auto;
+    }
 
         .menu {
             display: none;
@@ -1014,13 +1020,9 @@ ul{
         }
     
         .menu-toggle {
-            min-height: 40px;
-            min-width: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0;
-            padding: 0;
             background-color: transparent;
             cursor: pointer;
             border: none;
@@ -1053,11 +1055,7 @@ ul{
 
     }
     .hero-title{
-        margin-top: 0;
-        max-width: 320px;
-        
-        margin-left: 54px;
-        margin-right: 54px;
+        width: 320px;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
