@@ -997,7 +997,7 @@ ul{
     
 
     .container {
-        width: 320px;
+        max-width: 428px;
     }
 
     .menu-svg{
@@ -1052,6 +1052,9 @@ ul{
 
     
 /*SECTION FIRST*/
+    .container{
+        max-width: 428px;
+    }
     .hero{
         
         background-color: #2E2F42;
@@ -1336,11 +1339,8 @@ ul{
 
     }
     .hero-title {
-        margin-left: 100px;
-        min-width: 496px;
-        margin-bottom: 0;
-        margin-top: 0;
-        height: 120px;
+        width: 496px;
+        
         font-size: 56px;
         font-weight: 700;
         line-height: 60px;
@@ -1349,8 +1349,7 @@ ul{
 
     }
    .hero-buton{
-        margin-top: 0;
-        margin-bottom: 112px;
+        margin-top: 36px;
         margin-left: auto;
         margin-right: auto;
    }
@@ -1359,9 +1358,7 @@ ul{
    
     /*SECTION TWO*/
 
-    .container{
-        min-width: 736px;
-    }
+  
 
     .section-two-ul{
         gap: 72px 24px;
@@ -1403,9 +1400,7 @@ ul{
 }
 
     /*SECTION FOUR*/
-    .container{
-        width: 584px;
-    }
+    
 
     .section-four-ul {
         max-width: unset;
@@ -1433,10 +1428,7 @@ ul{
 
     
     /*SECTION FIVE*/
-        .container {
-            width: 584px;
-        }
-
+       
 
     .five-title {
         line-height: 40px;
@@ -1460,13 +1452,7 @@ ul{
     }
 
     /*FOOTER*/
-    .container {
-        max-width: 736px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 72px 24px;
-    }
+   
     
     
     .footer-all{
