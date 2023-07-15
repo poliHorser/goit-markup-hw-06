@@ -1145,7 +1145,6 @@ ul{
 
     .section-two {
         display: block;
-        
         padding-top: 96px;
         padding-bottom: 96px;
        
@@ -1163,8 +1162,9 @@ ul{
     }
 
     .section-two-list {
-        max-width: 396px;
-        margin-left: 16px;
+        width: 396px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .main-secondtitle{
         align-self: stretch;
@@ -1424,7 +1424,8 @@ ul{
     }
     .section-two-list {
         max-width: unset;
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: calc((100% - 24px) / 2);
     }
     .main-secondtitle{
@@ -1569,6 +1570,13 @@ ul{
 
 @media screen and (min-width: 1158px) and (max-width:1440px){
 
+.menu-toggle {
+        display: none;
+    }
+.menu {
+    display: none;
+}
+
 
     .container {
         max-width: 1158px;
@@ -1647,7 +1655,7 @@ ul{
 
 
 
-/*SECTION TWO*/
+
 
     .hero {
     
@@ -1656,17 +1664,18 @@ ul{
 
 
     }
-    
+/*SECTION TWO*/
+
     .section-two{
-        justify-content: center;
-        padding: 120px 0;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
-.two-title{
-    display: none;
-}
+    .two-title{
+        display: none;
+    }
     .section-two-ul {
-        margin-right: 100px;
-        margin-left: 0;
+        margin-right: auto;
+        margin-left: auto;
         width: unset;
         max-width: unset;
         display: flex;
@@ -1676,14 +1685,14 @@ ul{
     }
 
     .section-two-list{
-        width: 264px;
+       
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
         .main-second-content {
-        width: 240px;
+        width: 264px;
         height: 72px;
         font-weight: 400;
         font-size: 16px;
@@ -1703,7 +1712,8 @@ ul{
 
     }
     .section-wo-im{
-        display: flex;
+        width: 264px;
+        height: 112px;
     }
     /*SECTION TRHEE*/
    
