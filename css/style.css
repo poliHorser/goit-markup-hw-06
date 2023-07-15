@@ -1056,7 +1056,7 @@ ul{
         max-width: 428px;
     }
     .hero{
-        
+        padding: 112px 0;
         background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg.jpg);
 
@@ -1333,6 +1333,7 @@ ul{
         }
    /*SECTION ONE*/
     .hero {
+        padding-top: 112px;
         background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tab-bg.jpg);
 
@@ -1340,7 +1341,8 @@ ul{
     }
     .hero-title {
         width: 496px;
-        
+        margin-left: auto;
+        margin-right: auto;
         font-size: 56px;
         font-weight: 700;
         line-height: 60px;
