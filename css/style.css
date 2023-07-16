@@ -993,9 +993,11 @@ ul{
     margin-right: 0;
  }
  .menu-toggle {
-        height: 40px;
-        width: 40px;
+        min-height: 40px;
+        min-width: 40px;
         display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 0;
         padding: 0;
         background-color: transparent;
@@ -1061,7 +1063,7 @@ ul{
         text-decoration: none;
     }
     .mobile-menu .opened{
-        color: #404BBF;
+        color: #4D5AE5;
     }
  /**/
     .modal{
@@ -1309,7 +1311,9 @@ ul{
 }
 
 /**MODAL*/
+
 .mod-li {
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
@@ -1321,7 +1325,11 @@ ul{
     gap: 48px;
     padding-left: 0;
 }
+.svg{
+    stroke: #111111;
+    text-align: center;
 
+}
 .opened{
     color: #4d5ae5;
 }
@@ -1634,7 +1642,9 @@ ul{
 }
     
     
-
+.modal-adddres {
+    display: none;
+}
 
 }
 /**/
@@ -1893,7 +1903,9 @@ ul{
         margin-bottom: 16px;
     }
     
-    
+.modal-adddres{
+    display: none;
+}    
 
 
 }
