@@ -989,14 +989,16 @@ ul{
 /*MEDIA*/
 @media screen and (min-width:320px) and (max-width: 768px) {
  /**/
- 
+ .header-div{
+    margin-right: 0;
+ }
  .menu-toggle {
         min-height: 40px;
         min-width: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin-right: 0;
         padding: 0;
         background-color: transparent;
         cursor: pointer;
@@ -1108,15 +1110,12 @@ ul{
         max-width: 428px;
     }
     .hero{
-        padding: 112px 0;
         background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg.jpg);
 
 
     }
     .hero-title{
-        
-        min-width: 320px;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
@@ -1145,8 +1144,8 @@ ul{
 
     .section-two {
         display: block;
-        padding-top: 96px;
-        padding-bottom: 96px;
+        padding: 96px 0;
+        
        
 
     }
@@ -1208,24 +1207,21 @@ ul{
 
     /*SECTION FIVE*/
         
-        
+        .section-five{
+            padding: 96px 0;
+        }
 
         .five-title{
             line-height: 40px;
             letter-spacing: 0.72px;
-            margin-top: 96px;
-            margin-bottom: 0;
         }
 
         .five-ul{
             gap:72px 16px;
-            margin-top: 72px;
             width: 100%;
             margin-right: auto;
             margin-left: auto;
-            flex-wrap: wrap;
-            margin-bottom: 96px;
-            
+            flex-wrap: wrap;    
         }
         .five-ul-li{
             width: calc((100% - 16px) / 2);
@@ -1330,14 +1326,15 @@ ul{
         max-width: 768px;
     }
     .header-logo {
-       
+        margin-top: 0;
+        margin-left: 0;
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         color: #404bbf;
-        /* margin-right: 76px;*/
+        
         letter-spacing: 0.03em;
     
     }
@@ -1489,9 +1486,10 @@ ul{
     
     /*SECTION FIVE*/
        
-
+    .section-five{
+        padding: 96px 0;
+    }
     .five-title {
-        margin-top: 96px;
         line-height: 40px;
         letter-spacing: 0.72px;
         
@@ -1503,7 +1501,6 @@ ul{
         gap:72px 24px;
         width: 552px;
         flex-wrap: wrap;
-        margin-bottom: 96px;
     }
 
     .five-ul-li {
@@ -1513,12 +1510,16 @@ ul{
 
     /*FOOTER*/
    
-    
+    .footer{
+        padding-top: 100px;
+        padding-bottom: 110px;
+        padding-left: 108px;
+        padding-right: auto;
+    }
     
     .footer-all{
-        margin-left: 110px;
+        margin-left: auto;
         margin-right: auto;
-        width: 100%;
         gap: 72px 24px;
         display: flex;
         flex-wrap: wrap;
@@ -1526,7 +1527,7 @@ ul{
     .footer-first {
         
         text-align: left;
-        width: calc((100%-24px)/2);
+        width: calc((496px -24px)/2);
     }
 
     .footer-text {
@@ -1591,6 +1592,9 @@ ul{
         display: none;
     }
 .menu {
+    display: none;
+}
+.mobile-menu{
     display: none;
 }
 
