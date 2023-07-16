@@ -1301,6 +1301,9 @@ ul{
 .two-title {
     display: none;
 }
+
+/**MODAL*/
+
 }
 
 
@@ -1488,12 +1491,15 @@ ul{
        
 
     .five-title {
+        margin-top: 96px;
         line-height: 40px;
         letter-spacing: 0.72px;
         
     }
 
     .five-ul {
+        margin-left: auto;
+        margin-right: auto;
         gap:72px 24px;
         width: 552px;
         flex-wrap: wrap;
