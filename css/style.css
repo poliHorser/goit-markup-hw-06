@@ -989,17 +989,14 @@ ul{
 /*MEDIA*/
 @media screen and (min-width:320px) and (max-width: 768px) {
  /**/
- .header-div{
-    margin-right: 0;
- }
+ 
  .menu-toggle {
+    margin-top: 24px;
         min-height: 40px;
         min-width: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 0;
-        padding: 0;
         background-color: transparent;
         cursor: pointer;
         border: none;
@@ -1115,6 +1112,9 @@ ul{
     .header-adddres {
         display: none;
     }
+        .header-div {
+            justify-content: space-between;
+        }
 
     
 /*SECTION FIRST*/
@@ -1645,6 +1645,7 @@ ul{
 .modal-adddres {
     display: none;
 }
+
 
 }
 /**/
