@@ -793,8 +793,7 @@ ul{
 }
 .cl-svg{
     
-    background-color:#111111;
-    border-radius: 50%;
+    fill: #111111;
     display: flex;
     align-items: center;
     justify-content: center;
