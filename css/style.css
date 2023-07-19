@@ -151,6 +151,9 @@ ul{
 
 
 }
+.header-nav{
+    padding-top: 24px;
+}
 
 /*fIRST SECTION*/
 
@@ -365,7 +368,7 @@ ul{
     color: #434455;
     line-height: 1.5;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .li-section {
     background-color: #FFFFFF;
@@ -991,6 +994,7 @@ ul{
  /**/
  
  .menu-toggle {
+    margin: unset;
         min-height: 40px;
         min-width: 40px;
         display: flex;
@@ -1000,7 +1004,6 @@ ul{
         cursor: pointer;
         border: none;
         border-radius: 50%;
-        background-color: #8e8f99;
         outline: none;
     }
 
@@ -1021,7 +1024,9 @@ ul{
         left: 0;
         width: 100vw;
         height: 100vh;
-        padding: 32px;
+        padding-top: 24px;
+        padding-left: 40px;
+        padding-right: 24px;
         background-color: #fff;
         z-index: 999;
         transform: translateX(100%);
@@ -1041,7 +1046,7 @@ ul{
     }
 
     .mobile-menu {
-        margin-top: 80px;
+        margin-top: 56px;
         margin-bottom: 284px;
         display: flex;
         flex-direction: column;
@@ -1189,6 +1194,7 @@ ul{
     }
 
     .main-second-content{
+        margin-top: 8px;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -1206,12 +1212,15 @@ ul{
        
     
     /*SECTION FOUR*/
+    .section-four{
+        padding: 96px 0;
+    }
         .section-four-ul{
             flex-wrap: wrap;
             gap: 72px;
             margin-left: auto;
             margin-right: auto;
-            padding-top: 72px;
+            margin-top: 72px;
         }
         .section-four-title{
             line-height: 40px;
@@ -1266,7 +1275,6 @@ ul{
     
     .footer-par{
     margin-left: auto;
-       margin-top: 72px;
        margin-bottom: 16px;
        
     }
@@ -1276,19 +1284,20 @@ ul{
        margin-right: auto;
     }
     .footer-div{
+        margin-top: 72px;
         flex-direction: column;
         display: block;
         text-align: center;
         
     }
     .footer-second{
+        margin-top: 72px;
         display: block;
         text-align: center;
        
     }
     
     .footer-par-p{
-        margin-top: 72px;
         margin-bottom: 16px;
     }
 
@@ -1364,7 +1373,11 @@ ul{
 
 
 @media screen and (min-width: 768px) and (max-width:1158px) {
-.menu-toggle {
+.header-menu-item .opened {
+        color: #4d5ae5;
+    }
+
+    .menu-toggle {
         display: none;
     }
 .mobile-menu {
@@ -1378,9 +1391,14 @@ ul{
     width: 408px;
 }
 
-
+.header-nav{
+    padding-top: 0;
+}
     .container{
         max-width: 768px;
+    }
+    .header{
+        height: 72px;
     }
     .hid-modal{
         display: none;
@@ -1390,7 +1408,6 @@ ul{
         max-width: 768px;
     }
     .header-logo {
-        margin-top: 0;
         margin-left: 0;
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
@@ -1526,7 +1543,7 @@ ul{
     .section-four-ul {
         max-width: unset;
         gap: 72px 24px;
-        padding-top: 72px;
+        margin-top: 72px;
         flex-wrap: wrap;
     }
 
@@ -1574,10 +1591,7 @@ ul{
     /*FOOTER*/
    
     .footer{
-        padding-top: 100px;
-        padding-bottom: 110px;
-        padding-left: 108px;
-        padding-right: auto;
+        padding: 100px 100px;
     }
     
     .footer-all{
@@ -1611,9 +1625,7 @@ ul{
         margin-top: 0;
         text-align: left;
     }
-    .footer-ul{
-        margin-top: 16px;
-    }
+
     
 
 
@@ -1627,7 +1639,12 @@ ul{
         height: 40px;
         flex-shrink: 0;
     }
-
+    .footer-second{
+        margin-top: 0;
+    }
+    .footer-div{
+        margin-top: 0;
+    }
     .footer-form-btn {
         margin: 0;
         width: 165px;
@@ -1641,6 +1658,9 @@ ul{
     
 .two-title {
     display: none;
+}
+.footer-label{
+    margin-bottom: 0;
 }
     
     
@@ -1658,7 +1678,9 @@ ul{
 
 
 @media screen and (min-width: 1158px){
-
+.header-menu-item .opened {
+        color: #4d5ae5;
+    }
 .menu-toggle {
         display: none;
     }
@@ -1669,7 +1691,9 @@ ul{
     display: none;
 }
 
-
+.header-nav{
+    padding-top: 0;
+}
     .container {
         max-width: 1158px;
         margin: 0 auto;
@@ -1760,7 +1784,7 @@ ul{
 /*SECTION TWO*/
 
     .section-two{
-        padding-top: 120px;
+        padding: 120px 0;
     }
     .two-title{
         display: none;
@@ -1809,9 +1833,6 @@ ul{
     }
     /*SECTION TRHEE*/
    
-    .section-three{
-        margin-top: 120px;
-    }
     .section-title{
         text-align: center;
         margin-top: auto;
@@ -1844,7 +1865,7 @@ ul{
     .five-title{
         line-height: 1.11;
         letter-spacing: 0.02em;
-        
+        margin-bottom: 0;
     }
     .five-ul{
         width: 1128px;
