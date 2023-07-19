@@ -991,7 +991,6 @@ ul{
  /**/
  
  .menu-toggle {
-    margin-top: 24px;
         min-height: 40px;
         min-width: 40px;
         display: flex;
@@ -1001,6 +1000,7 @@ ul{
         cursor: pointer;
         border: none;
         border-radius: 50%;
+        background-color: #8e8f99;
         outline: none;
     }
 
@@ -1035,14 +1035,14 @@ ul{
     .menu-container .menu-toggle {
         position: absolute;
         
-        top: 16px;
-        right: 16px;
+        top: 24px;
+        right: 24px;
         color: #fff;
     }
 
     .mobile-menu {
-        padding-top: 80px;
-        padding-bottom: 284px;
+        margin-top: 80px;
+        margin-bottom: 284px;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -1099,13 +1099,13 @@ ul{
         
 /*HEADER*/
     .header {
-        
-        height: 72px;
+        height: 70px;
     }
     .header-logo{
-        margin-top: 24px;
-        margin-left: 16px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+    
     .header-menu{
         display: none;
     }
@@ -1122,12 +1122,14 @@ ul{
         max-width: 428px;
     }
     .hero{
+        padding: 112px 0;
         background-color: #2E2F42;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-bg.jpg);
 
 
     }
     .hero-title{
+        
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
